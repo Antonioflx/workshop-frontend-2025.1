@@ -1,0 +1,37 @@
+.divHas-Links {
+	flex-direction: column;
+	width: 150px;
+	.divHas-span-a {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		color: #ffcb05;
+
+		font-weight: bold;
+		gap: 1rem;
+
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	}
+
+	.divHas-span-a:hover {
+		background-color: #b71c1c81;
+
+		border-radius: 10px;
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.divHas-Links {
+		flex-direction: row;
+		width: unset;
+		padding: 1rem;
+	}
+
+	.divHas-span-a:hover {
+		border-radius: 10px;
+		padding: 5px;
+
+		background-color: #4676b1a4 !important;
+	}
+}

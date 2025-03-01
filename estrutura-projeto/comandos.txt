@@ -1,0 +1,8 @@
+## COMANDOS:
+npx create-my-app@latest
+
+npm install react-icons -> utilizar *icones do react*
+	-> icons.
+		-> hamburguer
+
+npm install sass -> utilizar *scss*

@@ -1,0 +1,34 @@
+## ARQUIVOS
+
+[*] === arquivo
+[-] === file
+
+*src
+	*app
+		- layout.jsx
+		- page.jsx
+	*components
+		*header (quase proonto, só falta fazer a animação na hora de fechar)
+			*components
+				*firstMenu -> Menu < 900px
+					- firstMenu.jsx
+				*secondMenu -> Menu > 900px			
+					- secondMenu.jsx
+				*linkMenu -> Links (Home, Cards, Carrosel)
+					- linkMenu.jsx 	
+			- header.jsx
+			- headerStyle.scss
+		*main
+			*components
+				*cardsAPI -> Pegar a api dos cards.
+					- cards.jsx
+				*pages
+					*cards-page -> Página dos cards
+						- cardsPage.jsx
+					*home-page -> Página principal
+						- homePage.jsx
+					*package-page -> Página dos pacotes
+						- packagePage.jsx
+				
+			- main.jsx
+		*footer (maybe)

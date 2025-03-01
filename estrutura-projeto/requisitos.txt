@@ -1,0 +1,18 @@
+## REQUISITOS:
+
+1. Um header que contenha no mínimo a opção de **INÍCIO e CARTAS.**
+
+2. Nível (Fácil):
+    - Estilizar a tela de início com base nas suas preferências, trazendo referência ao tema Pokémon.
+
+3. Nível (Médio):
+    - Consumir a API e exibir cards na tela de cartas
+    - Cada card deve mostrar o nome(`name`), tipos(`types`) e a imagem da carta Pokémon(`image.large`).
+
+4. Nível (Difícil):
+    - Adicionar uma seção de destaque no início com um carrossel, apresentando imagens temáticas de sua escolha, é permitido utilizar bibliotecas como Swiper.
+    - Adicionar um campo de pesquisa para permitir que os usuários encontrem cartas específicas pelo nome ou tipo do Pokémon.
+
+5. Nível(Desafio extra):
+    - Adicionar um botão que exibe 6 cartas aleatórias, como se fosse um pacotinho.
+		
