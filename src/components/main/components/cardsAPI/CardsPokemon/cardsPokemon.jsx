@@ -19,9 +19,9 @@ export default function PokemonCard({ pokemon }) {
 				</h2>
 				<Link href={`/character/${pokemon?.name}`}>
 					<img
-						src={pokemon?.images.small}
+						src={pokemon?.images.large}
 						alt={pokemon?.name}
-						className="w-40 h-40 "
+						className="w-60 h-60 "
 					/>
 				</Link>
 			</div>

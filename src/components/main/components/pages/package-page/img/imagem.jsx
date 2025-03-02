@@ -31,11 +31,11 @@ const ImgCarrosel = ({ showCards, data }) => {
 					<img
 						src={
 							showCards
-								? randomIndices.indice1.images.small
+								? randomIndices.indice1.images.large
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-35"
+						className="w-60 h-60"
 					/>
 				</Link>
 			</div>
@@ -50,11 +50,11 @@ const ImgCarrosel = ({ showCards, data }) => {
 					<img
 						src={
 							showCards
-								? randomIndices.indice2.images.small
+								? randomIndices.indice2.images.large
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-35"
+						className="w-60 h-60"
 					/>
 				</Link>
 			</div>
@@ -69,11 +69,11 @@ const ImgCarrosel = ({ showCards, data }) => {
 					<img
 						src={
 							showCards
-								? randomIndices.indice3.images.small
+								? randomIndices.indice3.images.large
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-35"
+						className="w-60 h-60"
 					/>
 				</Link>
 			</div>
@@ -88,11 +88,11 @@ const ImgCarrosel = ({ showCards, data }) => {
 					<img
 						src={
 							showCards
-								? randomIndices.indice4.images.small
+								? randomIndices.indice4.images.large
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-35"
+						className="w-60 h-60"
 					/>
 				</Link>
 			</div>
@@ -107,11 +107,11 @@ const ImgCarrosel = ({ showCards, data }) => {
 					<img
 						src={
 							showCards
-								? randomIndices.indice5.images.small
+								? randomIndices.indice5.images.large
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-35"
+						className="w-60 h-60"
 					/>
 				</Link>
 			</div>
@@ -126,11 +126,11 @@ const ImgCarrosel = ({ showCards, data }) => {
 					<img
 						src={
 							showCards
-								? randomIndices.indice6.images.small
+								? randomIndices.indice6.images.large
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-35"
+						className="w-60 h-60"
 					/>
 				</Link>
 			</div>

@@ -13,7 +13,7 @@ export default function PokemonAlone({ params }) {
         
     */
 	}
-	console.log(id);
+
 	return (
 		<div>
 			<HeaderMenu />

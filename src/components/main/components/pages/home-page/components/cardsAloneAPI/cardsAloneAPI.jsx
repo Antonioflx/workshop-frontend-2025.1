@@ -46,7 +46,7 @@ const CardsAloneAPI = ({ nomePokemon }) => {
 
 					<Link href={`/character/${infoCardsAlone.name}`}>
 						<img
-							src={infoCardsAlone.images?.small}
+							src={infoCardsAlone.images?.large}
 							alt={infoCardsAlone.name}
 							className="w-[200px] h-[200px] img-cardsAlone"
 						/>

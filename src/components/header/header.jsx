@@ -10,6 +10,7 @@ export default function HeaderMenu() {
 	const [chooseMenu, setChooseMenu] = useState(
 		typeof window !== "undefined" ? window.innerWidth < 900 : false
 	);
+	const [mounted, setMounted] = useState(false);
 
 	// fazer uma função que pegue o tamanho da tela. < 900 px ? FirstMenu : SecondMenu
 
@@ -17,13 +18,18 @@ export default function HeaderMenu() {
 		const takeResize = () => {
 			setChooseMenu(window.innerWidth < 900 ? true : false);
 		};
-
+		setMounted(true);
 		takeResize();
 		window.addEventListener("resize", takeResize);
-		console.log("Largura da tela:", window.innerWidth);
 
 		return () => window.removeEventListener("resize", takeResize);
 	}, []);
+
+	// o window bugado -> quando recarrega a aparece as opções.
+	// Pesquisar melhor qual opção fazer futuramente.
+	if (!mounted) {
+		return null;
+	}
 
 	return (
 		<div className="flex justify-end px-3 py-2" id="header-menus">
