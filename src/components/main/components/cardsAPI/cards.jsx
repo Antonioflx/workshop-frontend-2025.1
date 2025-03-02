@@ -4,7 +4,7 @@ import { Spin } from "antd";
 import { useContext } from "react";
 import "./cardsAPI.scss";
 import PokemonCard from "./CardsPokemon/cardsPokemon";
-import { ContextAPI } from "@/app/contextAPI";
+import { ContextAPI } from "@/components/contextAPI";
 
 // pensando em usar como createContext
 

@@ -1,9 +1,9 @@
 "use client";
 
-import { ContextAPI } from "@/app/contextAPI";
 import { useContext } from "react";
 import BehindCard from "./behindCard.jpg";
 import Link from "next/link";
+import { ContextAPI } from "@/components/contextAPI";
 
 const ImgCarrosel = ({ showCards }) => {
 	const { infoCards } = useContext(ContextAPI);

@@ -4,7 +4,7 @@
 */
 import { useContext, useEffect, useState } from "react";
 import ImgCarrosel from "./img/imagem";
-import { ContextAPI } from "@/app/contextAPI";
+
 import "./packagePage.scss";
 
 export default function PackagePage() {
@@ -20,6 +20,7 @@ export default function PackagePage() {
 					type="button"
 					className="bg-blue-600 w-40 rounded-lg h-10 hover:bg-blue-500 cursor-pointer text-white"
 					onClick={handleCaminhoImg}
+					disabled={showCards ? true : false}
 				>
 					{!showCards ? "Abir Pacote" : "Resetar Pacote"}
 				</button>
