@@ -13,4 +13,4 @@
 
 	5. ShowMenu -> Só consegui fazer a animação quando abria, para fechar n consegui fazer pelo React
 
-	6. Package -> Se os dados da API demorar, ela da erro em images.
+	
