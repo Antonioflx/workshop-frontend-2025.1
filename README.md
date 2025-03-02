@@ -9,7 +9,7 @@
    <h2> ## Estrutura do Projeto </h2>
    <p> Mais detalhes no arquivo *estrutura-projeto* </p>
    <ul>
-      <p> Possui 3 páginas </p>
+      <p> <b>Possui 3 páginas</b> </p>
       <li>Home -> Escolher a primeira carta (Pikachu, Charmander, Bulbasaur, Squirtle </li>
       <li>Cards -> Mostrar todas as cartas</li>
       <li>Carrosel -> Abrir o pacote e aparecer 6 cartas aleatórias</li>
