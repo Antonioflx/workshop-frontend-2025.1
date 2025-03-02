@@ -48,7 +48,7 @@ const CardsAloneAPI = ({ nomePokemon }) => {
 						<img
 							src={infoCardsAlone.images?.large}
 							alt={infoCardsAlone.name}
-							className="w-[200px] h-[200px] img-cardsAlone"
+							className="w-50 h-50 img-cardsAlone"
 						/>
 					</Link>
 				</div>

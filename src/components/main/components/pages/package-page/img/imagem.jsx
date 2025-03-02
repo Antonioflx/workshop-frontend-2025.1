@@ -19,7 +19,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 		 	Mas, n sei usar, ent deixo para o futuro
 	*/
 	return (
-		<div className="flex flex-wrap gap-3 justify-center py-3 divHas-imgs">
+		<div className="flex flex-wrap gap-2 justify-center py-1 divHas-imgs">
 			<div className="flex flex-col items-center">
 				{showCards && (
 					<h2 className="font-bold text-white drop-shadow-md ">
@@ -35,7 +35,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-60 h-60"
+						className="w-50 h-50"
 					/>
 				</Link>
 			</div>
@@ -54,7 +54,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-60 h-60"
+						className="w-50 h-50"
 					/>
 				</Link>
 			</div>
@@ -73,7 +73,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-60 h-60"
+						className="w-50 h-50"
 					/>
 				</Link>
 			</div>
@@ -92,7 +92,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-60 h-60"
+						className="w-50 h-50"
 					/>
 				</Link>
 			</div>
@@ -111,7 +111,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-60 h-60"
+						className="w-50 h-50"
 					/>
 				</Link>
 			</div>
@@ -130,7 +130,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-60 h-60"
+						className="w-50 h-50"
 					/>
 				</Link>
 			</div>
