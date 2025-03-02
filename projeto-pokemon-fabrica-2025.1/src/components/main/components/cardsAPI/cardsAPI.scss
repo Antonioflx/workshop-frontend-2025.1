@@ -10,9 +10,6 @@
 #divHas-cards {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	.divHas-allCards {
-		width: 100%;
-	}
 }
 
 .spin {
@@ -22,13 +19,13 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 999px) {
-	#cards {
+	#divHas-cards {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
 @media screen and (min-width: 1000px) {
-	#cards {
+	#divHas-cards {
 		grid-template-columns: repeat(4, 1fr);
 	}
 }

@@ -1,16 +1,28 @@
+"use client";
 /*
     Sorteio de pacotes.
 */
-import BehindCard from "./img/behindCard.jpg";
-
+import { useContext, useEffect, useState } from "react";
 import ImgCarrosel from "./img/imagem";
+import { ContextAPI } from "@/app/contextAPI";
+import "./packagePage.scss";
 
 export default function PackagePage() {
+	const [showCards, setShowCards] = useState(false);
+
+	const handleCaminhoImg = () => setShowCards(!showCards);
+
 	return (
-		<div>
-			<ImgCarrosel srcImg={BehindCard.src} />
-			<div>
-				<button>Abrir Pacote</button>
+		<div id="divHas-cards-and-btn">
+			<ImgCarrosel showCards={showCards} />
+			<div className="flex justify-center  ">
+				<button
+					type="button"
+					className="bg-blue-600 w-40 rounded-lg h-10 hover:bg-blue-500 cursor-pointer text-white"
+					onClick={handleCaminhoImg}
+				>
+					{!showCards ? "Abir Pacote" : "Resetar Pacote"}
+				</button>
 			</div>
 		</div>
 	);

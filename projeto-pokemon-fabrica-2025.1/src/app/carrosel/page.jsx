@@ -1,3 +1,4 @@
+"use client";
 import HeaderMenu from "@/components/header/header";
 import PackagePage from "@/components/main/components/pages/package-page/packagePage";
 

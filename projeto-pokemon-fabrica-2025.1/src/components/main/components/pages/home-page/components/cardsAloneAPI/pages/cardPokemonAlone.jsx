@@ -2,7 +2,6 @@
     Voltar aqui dps
 */
 
-import HeaderMenu from "@/components/header/header";
 import { useEffect, useState } from "react";
 import "./cardsAlone.scss";
 import { Spin } from "antd";
@@ -61,7 +60,7 @@ export default function Page_PokemonAlone({ id }) {
 							<h3 className="font-bold ">
 								Detalhes do {allInfo?.name}
 							</h3>
-							<div className="flex flex-col  px-3 py-3 ">
+							<div className="flex flex-col  px-3 py-1 ">
 								<p className="text-gray-900 font-bold py-1">
 									Raridade:{" "}
 									<span className="font-semibold text-purple-600">
@@ -83,6 +82,15 @@ export default function Page_PokemonAlone({ id }) {
 								</p>
 							</div>
 						</div>
+					</div>
+					<div className="py-3 flex justify-center">
+						<button
+							type="button"
+							onClick={() => window.history.go(-1)}
+							className="bg-blue-600 w-40 rounded-lg h-7 hover:bg-blue-500 cursor-pointer text-white"
+						>
+							Voltar
+						</button>
 					</div>
 				</div>
 			)}

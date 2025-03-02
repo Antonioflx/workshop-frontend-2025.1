@@ -1,39 +1,16 @@
 "use client";
 
 import { Spin } from "antd";
-import { useEffect, useState } from "react";
+import { useContext } from "react";
 import "./cardsAPI.scss";
 import PokemonCard from "./CardsPokemon/cardsPokemon";
+import { ContextAPI } from "@/app/contextAPI";
 
 // pensando em usar como createContext
 
 export default function TakeCardsAPI() {
-	const [infoCards, setInfoCards] = useState([]);
-	const [pending, setPeding] = useState(true);
-	const [search, setSearch] = useState("");
-
-	useEffect(() => {
-		const takeCards = async () => {
-			setPeding(true);
-			try {
-				const responseAPI = await fetch(
-					"https://api.pokemontcg.io/v2/cards"
-				);
-
-				const data = await responseAPI.json();
-				// console.log(data);
-
-				setInfoCards(data?.data || []);
-			} catch (error) {
-				console.log(error);
-				setPeding(false);
-			} finally {
-				setPeding(false);
-			}
-		};
-
-		takeCards();
-	}, []);
+	const { infoCards, setSearch, pending, search } =
+		useContext(ContextAPI);
 
 	const filterData = infoCards.filter((pokemon) =>
 		pokemon.name.toLowerCase().includes(search.toLowerCase())

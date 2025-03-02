@@ -6,9 +6,8 @@ import FirstMenu from "./components/firstMenu/firstMenu";
 import SecondMenu from "./components/secondMenu/secondMenu";
 
 export default function HeaderMenu() {
-	const [chooseMenu, setChooseMenu] = useState(
-		window.innerWidth < 900
-	);
+	// esse window as vezes funciona outras n.
+	const [chooseMenu, setChooseMenu] = useState(false);
 
 	// fazer uma função que pegue o tamanho da tela. < 900 px ? FirstMenu : SecondMenu
 

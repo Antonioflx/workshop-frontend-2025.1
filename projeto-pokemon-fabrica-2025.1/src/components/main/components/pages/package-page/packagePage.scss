@@ -1,0 +1,16 @@
+#divHas-menuHeader {
+	padding: 0px;
+}
+
+@media screen and (min-width: 550px) {
+	#divHas-menuHeader {
+		padding: 0.75rem 0.5rem;
+		gap: 2.5rem;
+	}
+
+	#divHas-cards-and-btn {
+		.divHas-imgs {
+			padding: 3rem !important;
+		}
+	}
+}

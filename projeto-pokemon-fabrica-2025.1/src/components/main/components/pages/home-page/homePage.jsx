@@ -17,9 +17,12 @@ import CardsAloneAPI from "./components/cardsAloneAPI/cardsAloneAPI";
 
 export default function HomePage() {
 	return (
-		<div className="flex items-center justify-center py-4 flex-col">
+		<div className="flex items-center justify-center py-2 flex-col">
 			<div>
-				<h3 className="font-bold">Choose your initial choise! </h3>
+				<h3 className="font-bold ">
+					{" "}
+					Qual seria o seu primeiro pokemon?{" "}
+				</h3>
 			</div>
 			<div
 				className="py-4 px-4 grid gap-[2rem] grid-cols-2 hover:p-5"
