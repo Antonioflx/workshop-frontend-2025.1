@@ -32,7 +32,7 @@ export default function HeaderMenu() {
 	}
 
 	return (
-		<div className="flex justify-end px-3 py-2" id="header-menus">
+		<div className="flex justify-end px-3 py-1" id="header-menus">
 			{chooseMenu ? <FirstMenu /> : <SecondMenu />}
 		</div>
 	);

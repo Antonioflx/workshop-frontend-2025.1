@@ -28,13 +28,11 @@ export default function PackagePage() {
 			id="divHas-cards-and-btn"
 			className="h-[60%] flex flex-col justify-center items-center py-2"
 		>
-			<h2 className="font-bold text-white drop-shadow-md">
-				{" "}
-				Abra/Resete as cartas ao clicar no botão!!
-			</h2>
-
-			<ImgCarrosel showCards={showCards} data={infoCards} />
-			<div className="flex justify-center  ">
+			<div className="flex flex-col justify-center items-center">
+				<h2 className="font-bold text-white drop-shadow-md">
+					{" "}
+					Abra/Resete as cartas ao clicar no botão!!
+				</h2>
 				<button
 					type="button"
 					className="bg-blue-600 w-40 rounded-lg h-10 hover:bg-blue-500 cursor-pointer text-white"
@@ -43,6 +41,8 @@ export default function PackagePage() {
 					{!showCards ? "Abir Pacote" : "Resetar Pacote"}
 				</button>
 			</div>
+
+			<ImgCarrosel showCards={showCards} data={infoCards} />
 		</div>
 	);
 }

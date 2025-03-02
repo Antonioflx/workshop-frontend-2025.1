@@ -35,7 +35,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-50 h-50"
+						className="w-[250px] h-[290px]"
 					/>
 				</Link>
 			</div>
@@ -54,7 +54,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-50 h-50"
+						className="w-[250px] h-[290px]"
 					/>
 				</Link>
 			</div>
@@ -73,7 +73,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-50 h-50"
+						className="w-[250px] h-[290px]"
 					/>
 				</Link>
 			</div>
@@ -92,7 +92,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-50 h-50"
+						className="w-[250px] h-[290px]"
 					/>
 				</Link>
 			</div>
@@ -111,7 +111,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-50 h-50"
+						className="w-[250px] h-[290px]"
 					/>
 				</Link>
 			</div>
@@ -130,7 +130,7 @@ const ImgCarrosel = ({ showCards, data }) => {
 								: BehindCard.src
 						}
 						alt="Imagem"
-						className="w-50 h-50"
+						className="w-[250px] h-[290px]"
 					/>
 				</Link>
 			</div>

@@ -18,15 +18,8 @@
 @media screen and (min-width: 650px) {
 	#divHas-cards-and-btn {
 		.divHas-imgs {
-			gap: 2rem;
 			display: grid !important;
 			grid-template-columns: repeat(3, 1fr);
 		}
-	}
-}
-
-@media screen and (min-width: 900px) {
-	#divHas-cards-and-btn {
-		padding: 3rem;
 	}
 }
