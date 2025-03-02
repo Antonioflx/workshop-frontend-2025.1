@@ -25,7 +25,7 @@ export default function HomePage() {
 				</h3>
 			</div>
 			<div
-				className="py-3 px-4 grid gap-[2rem] grid-cols-2"
+				className="py-3 px-4 grid gap-[2rem] grid-cols-2 w-[90%]"
 				id="divHas-cardsAlone"
 			>
 				<div
