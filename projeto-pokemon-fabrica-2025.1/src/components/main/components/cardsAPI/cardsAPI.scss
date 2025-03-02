@@ -1,0 +1,34 @@
+.inpt-filter {
+	outline: none;
+}
+
+.inpt-filter:focus {
+	outline: 1px solid rgba(67, 67, 238, 0.507);
+	box-shadow: 1px 1px rgba(2, 19, 95, 0.295);
+}
+
+#divHas-cards {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	.divHas-allCards {
+		width: 100%;
+	}
+}
+
+.spin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+	#cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#cards {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

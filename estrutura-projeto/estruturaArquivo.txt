@@ -5,30 +5,68 @@
 
 *src
 	*app
-		- layout.jsx
-		- page.jsx
+		- layout.jsx -> arquivo principal
+		- page.jsx -> arquivo principal
+
+		*carrosel -> pagina do carrosel para o <Link>
+			- page.jsx
+
+		*cartas -> pagina das cartas para o <Link>
+			- page.jsx
+
+		*character -> -> pagina da carta sozinha para o <Link>
+			*[id]
+				- page.jsx
+
+		*contextAPI -> criar um useContext para poder acessar a API em todo canto do arquivo
+			- index.jsx
+
+		*home -> pagina home para o <Link>
+			- page.jsx
 	*components
 		*header (quase proonto, só falta fazer a animação na hora de fechar)
+			- header.jsx -> arquivo principal do header
+
 			*components
 				*firstMenu -> Menu < 900px
-					- firstMenu.jsx
+					- firstMenu.jsx -> hambuguer -> click mostrar showMenu.jsx
+					- showMenu.jsx (menu que sai da esquerda para a direita)
+
+				*img -> retornar a imagem do Pokemon
+					- imgPikachu.jsx
+
 				*secondMenu -> Menu > 900px			
 					- secondMenu.jsx
+
 				*linkMenu -> Links (Home, Cards, Carrosel)
 					- linkMenu.jsx 	
-			- header.jsx
-			- headerStyle.scss
-		*main
+			
+		*main (obviamente, a parte principal)
+			- main.jsx -> arquivo principal da main
+
 			*components
 				*cardsAPI -> Pegar a api dos cards.
 					- cards.jsx
+					*CardsPokemon -> retornar os cards
+						- cardsPokemon.jsx
+
 				*pages
 					*cards-page -> Página dos cards
 						- cardsPage.jsx
+
 					*home-page -> Página principal
 						- homePage.jsx
+						
+						*components
+							* cardsAloneAPI -> pegar API por nome (pq squirtle n tinha na principal
+								- cardsAloneAPI.jsx
+								
+								*pages -> mostrar o pokemon sozinho, details, etc
+									- cardPokemonAlone
+
 					*package-page -> Página dos pacotes
-						- packagePage.jsx
+						- packagePage.jsx -> arquivo principal
 				
-			- main.jsx
-		*footer (maybe)
+						*img -> retorna a imagem de trás das cartas (imitando um pacote)
+							- imagem.jsx
+		

@@ -1,3 +1,4 @@
+"use client";
 /*
     Menu tela pequena
     320px -- 900px

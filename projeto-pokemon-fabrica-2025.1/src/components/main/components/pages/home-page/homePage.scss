@@ -1,0 +1,11 @@
+.cardAlone h2 {
+	padding-bottom: 5px;
+}
+
+@media screen and (min-width: 540px) {
+	#divHas-cardsAlone {
+		.cardAlone {
+			padding: 1rem;
+		}
+	}
+}

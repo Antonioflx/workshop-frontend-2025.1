@@ -1,3 +1,4 @@
+"use client";
 import "./headerStyle.scss";
 
 import { useEffect, useState } from "react";

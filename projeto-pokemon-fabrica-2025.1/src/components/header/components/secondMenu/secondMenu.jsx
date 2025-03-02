@@ -1,3 +1,4 @@
+"use client";
 /*
     Menu de telas grandes.
 

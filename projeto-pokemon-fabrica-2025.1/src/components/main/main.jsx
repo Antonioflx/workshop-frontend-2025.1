@@ -1,15 +1,13 @@
+"use client";
 import { useState } from "react";
 import HeaderMenu from "../header/header";
+import HomePage from "./components/pages/home-page/homePage";
 
-export default function PagePrincipal() {
+export default function MainPage() {
 	return (
 		<div>
-			{/* Aqui vai ter o header */}
 			<HeaderMenu />
-
-			{/* Main -> Body */}
-
-			{/* Maybe - footer? */}
+			<HomePage />
 		</div>
 	);
 }

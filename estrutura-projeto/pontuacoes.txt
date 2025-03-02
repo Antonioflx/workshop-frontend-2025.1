@@ -1,0 +1,10 @@
+## PONTUAÇÕES
+
+	1. Página do Package -> Quando abro, clico na carta e volto, ela n mantem os dados.
+		
+	2. A forma como randomizei os indices. (Podre)
+
+	3. O Squirtle não está na API principal "https://api.pokemontcg.io/v2/cards"
+		Tive que utilizar da mesma API só que modificada para pegar 
+			"https://api.pokemontcg.io/v2/cards?q=name:${nomePokemon}" -> Squirtle 
+		PS: Necessitei de ajuda do GPT. Pesquisei no site oficial, mas n achei.
