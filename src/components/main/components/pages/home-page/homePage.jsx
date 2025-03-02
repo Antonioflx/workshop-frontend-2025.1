@@ -19,13 +19,13 @@ export default function HomePage() {
 	return (
 		<div className="flex items-center justify-center py-2 flex-col">
 			<div>
-				<h3 className="font-bold ">
+				<h3 className="font-bold text-white">
 					{" "}
 					Qual seria o seu primeiro pokemon?{" "}
 				</h3>
 			</div>
 			<div
-				className="py-4 px-4 grid gap-[2rem] grid-cols-2 hover:p-5"
+				className="py-3 px-4 grid gap-[2rem] grid-cols-2"
 				id="divHas-cardsAlone"
 			>
 				<div

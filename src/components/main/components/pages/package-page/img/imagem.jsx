@@ -1,22 +1,17 @@
 "use client";
 
-import { useContext } from "react";
 import BehindCard from "./behindCard.jpg";
 import Link from "next/link";
-import { ContextAPI } from "@/components/contextAPI";
 
-const ImgCarrosel = ({ showCards }) => {
-	const { infoCards } = useContext(ContextAPI);
-
-	// da para melhorar a logica total aq, mas tenho só ate amanha. Bora ver.
-
+const ImgCarrosel = ({ showCards, data }) => {
+	// da para melhorar a logica total aq
 	const randomIndices = {
-		indice1: infoCards[Math.floor(Math.random() * 250)],
-		indice2: infoCards[Math.floor(Math.random() * 250)],
-		indice3: infoCards[Math.floor(Math.random() * 250)],
-		indice4: infoCards[Math.floor(Math.random() * 250)],
-		indice5: infoCards[Math.floor(Math.random() * 250)],
-		indice6: infoCards[Math.floor(Math.random() * 250)],
+		indice1: data[Math.floor(Math.random() * 250)],
+		indice2: data[Math.floor(Math.random() * 250)],
+		indice3: data[Math.floor(Math.random() * 250)],
+		indice4: data[Math.floor(Math.random() * 250)],
+		indice5: data[Math.floor(Math.random() * 250)],
+		indice6: data[Math.floor(Math.random() * 250)],
 	};
 
 	/*

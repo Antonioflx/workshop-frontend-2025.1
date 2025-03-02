@@ -6,7 +6,6 @@ export default function CarroselPage() {
 	return (
 		<div>
 			<HeaderMenu />
-
 			<PackagePage />
 		</div>
 	);

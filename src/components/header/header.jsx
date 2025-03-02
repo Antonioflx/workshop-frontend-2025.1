@@ -7,7 +7,9 @@ import SecondMenu from "./components/secondMenu/secondMenu";
 
 export default function HeaderMenu() {
 	// esse window as vezes funciona outras n.
-	const [chooseMenu, setChooseMenu] = useState(false);
+	const [chooseMenu, setChooseMenu] = useState(
+		typeof window !== "undefined" ? window.innerWidth < 900 : false
+	);
 
 	// fazer uma função que pegue o tamanho da tela. < 900 px ? FirstMenu : SecondMenu
 
@@ -16,7 +18,9 @@ export default function HeaderMenu() {
 			setChooseMenu(window.innerWidth < 900 ? true : false);
 		};
 
+		takeResize();
 		window.addEventListener("resize", takeResize);
+		console.log("Largura da tela:", window.innerWidth);
 
 		return () => window.removeEventListener("resize", takeResize);
 	}, []);
