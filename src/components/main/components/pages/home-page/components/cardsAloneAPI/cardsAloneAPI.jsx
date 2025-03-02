@@ -2,7 +2,7 @@
 import "./cardAlone.scss";
 const { useEffect, useState } = require("react");
 import { Spin } from "antd";
-import Page_PokemonAlone from "./pages/cardPokemonAlone";
+
 import Link from "next/link";
 /*
      pegar uma api com o nome do pikachu inicial que o usu escolheu

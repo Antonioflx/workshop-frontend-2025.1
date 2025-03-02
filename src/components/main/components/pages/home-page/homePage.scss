@@ -2,8 +2,16 @@
 	padding-bottom: 5px;
 }
 
+#divHas-cardsAlone {
+	display: flex;
+	flex-direction: column;
+}
+
 @media screen and (min-width: 540px) {
 	#divHas-cardsAlone {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+
 		.cardAlone {
 			padding: 1rem;
 		}
