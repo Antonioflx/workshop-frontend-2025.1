@@ -1,10 +1,10 @@
 #divHas-menuHeader {
-	padding: 0px;
+	padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 550px) {
 	#divHas-menuHeader {
-		padding: 0.75rem 0.5rem;
+		padding: 0.75rem 0.5rem !important;
 		gap: 2.5rem;
 	}
 
@@ -12,5 +12,11 @@
 		.divHas-imgs {
 			padding: 1rem !important;
 		}
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#divHas-cards-and-btn {
+		padding: 3rem;
 	}
 }

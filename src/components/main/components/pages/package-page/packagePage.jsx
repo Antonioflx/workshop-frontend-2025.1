@@ -24,7 +24,15 @@ export default function PackagePage() {
 	const handleCaminhoImg = () => setShowCards(!showCards);
 
 	return (
-		<div id="divHas-cards-and-btn">
+		<div
+			id="divHas-cards-and-btn"
+			className="h-[60%] flex flex-col justify-center items-center py-2"
+		>
+			<h2 className="font-bold text-white drop-shadow-md">
+				{" "}
+				Abra/Resete as cartas ao clicar no botão!!
+			</h2>
+
 			<ImgCarrosel showCards={showCards} data={infoCards} />
 			<div className="flex justify-center  ">
 				<button
