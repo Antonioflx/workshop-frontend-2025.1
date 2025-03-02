@@ -8,12 +8,12 @@
       </li>
       <li>
          <span> 
-            Basicamente, é apenas consumir a API:(https://docs.pokemontcg.io/) e mostrar as cards do pokemon
+            Basicamente, é apenas consumir a API: (https://docs.pokemontcg.io/) e mostrar as cards do pokemon
          </span>
       </li>
       <li>
          <span>
-            <b>Link:</b> https://workshop-frontend-2025-1-lyart.vercel.app/
+            <b>Link do projeto:</b> https://workshop-frontend-2025-1-lyart.vercel.app/
          </span>
       </li>
    </ul>
